@@ -47,12 +47,12 @@ public class GoodVsEvil {
         //loop through array created from the parameter
         //add the values of the array together
         //parse the string to an integer
-        for (int i = 0; i < goodGuySoldiers.length; i++) {
-            goodGuyArmyStrength += Integer.parseInt(goodGuySoldiers[i]);
+        for (String goodGuySoldier : goodGuySoldiers) {
+            goodGuyArmyStrength += Integer.parseInt(goodGuySoldier);
         }
 
-        for (int i = 0; i < badGuySoldiers.length; i++) {
-            badGuyArmyStrength += Integer.parseInt(badGuySoldiers[i]);
+        for (String badGuySoldier : badGuySoldiers) {
+            badGuyArmyStrength += Integer.parseInt(badGuySoldier);
         }
 
         //
