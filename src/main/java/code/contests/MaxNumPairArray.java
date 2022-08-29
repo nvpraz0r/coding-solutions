@@ -44,8 +44,8 @@ public class MaxNumPairArray {
 
         //
         List<Integer> pairs = new ArrayList<>();
-        for(int i = 0; i < nums.length; i++){
-            pairs.add(nums[i]);
+        for (int num : nums) {
+            pairs.add(num);
         }
 
         int numToFind = pairs.get(0);
