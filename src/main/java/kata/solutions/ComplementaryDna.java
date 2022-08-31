@@ -1,26 +1,27 @@
 package kata.solutions;
 
 /**
- * Abbreviate A Two Word Name
+ * Complementary DNA
  *
- * Write a function to convert a name into initials.
- * This kata strictly takes two words with one space in between them.
- * The output should be two capital letters with a dot separating them.
+ * Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the instructions for the development and functioning of living organisms.
+ * In DNA string, symbols "A" and "T" are complements of each other, as "C" and "G".
+ * Your function receives one side of the DNA; you need ot return the other complementary side.
+ * DNA strand is never empty or there is no DNA at all.
  *
  * EXAMPLE 1:
- * input: Sam Harris
- * output: S.H
+ * input:   "ATTGC"
+ * output:  "TAACG"
  *
  * EXAMPLE 2:
- * input: patrick feeney
- * output: P.F
+ * input:   "GTAT"
+ * output:  "CATA"
  *
- * EXAMPLE 3:
- * input: P Favuzzi
- * output: P.F
- *
- * @see <a href="https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/java">Abbreviate A Two Word Name</a>
+ * @see <a href="https://www.codewars.com/kata/554e4a2f232cdd87d9000038/java">Complementary DNA</a>
  */
 
 public class ComplementaryDna {
+    public static String makeCOmplement(String dna){
+
+        return dna;
+    }
 }
