@@ -26,9 +26,9 @@ public class RegexValidateCode {
     public static boolean validatePin(String pin){
         //matches returns true or false based on the conditions of the regex
         return pin.matches("\\d{4} | \\d{6}");
-        //the slashes followed by the letter "d" indicate the method should look for digits
+        //the slashes followed by the letter "d" indicate the method should look for "digits"
         //the "4" indicates how many digits in the string
-        //the "|" is an OR statement operator
+        //the "|" indicates to find a match for any one of the patterns
     }
 
     //my caveman solution
