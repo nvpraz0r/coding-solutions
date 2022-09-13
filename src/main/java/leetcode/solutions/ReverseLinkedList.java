@@ -1,5 +1,6 @@
 package leetcode.solutions;
 
+
 /**
  * 206. Reverse Linked List
  *
@@ -16,7 +17,12 @@ package leetcode.solutions;
  * @see <a href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</a>
  */
 
-public class ReverseLinkedList {
+class ReverseLinkedList {
+    public ListNode reverseList(ListNode head){
+        ListNode p = null;
+        ListNode q = null;
+        ListNode r = head;
 
-    
+
+    }
 }
